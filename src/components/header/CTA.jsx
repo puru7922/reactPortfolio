@@ -4,8 +4,8 @@ import Resume from '../../assets/Purushottam_Kumar_Resume.pdf'
 const CTA = () => {
     return (
         <div className="cta">
-            <a href={Resume} download>Resume</a>
-            <a href="#contact">Let's Talk</a>
+            <a href={Resume} download className="btn">Resume</a>
+            <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
     )
 }
