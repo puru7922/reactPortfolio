@@ -5,6 +5,7 @@ import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 
+
 const About = () => {
   return (
     <section id="about">
@@ -18,7 +19,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="about_container">
+        <div className="about_content">
           <div className="about_cards">
             <article className="about_card">
               <FiUsers className="about_icon" />
@@ -50,5 +51,4 @@ const About = () => {
     </section>
   );
 };
-
 export default About;
