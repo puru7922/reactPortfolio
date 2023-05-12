@@ -12,7 +12,7 @@ header {
 }
 
 .me {
-    background: linear-gradient(var(--color-primary), transparent);
+    background: var(--color-primary);
     width: 22rem;
     height: 22.5rem;
     position: absolute;
@@ -21,10 +21,11 @@ header {
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 0;
+    -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))
 }
 
 .img_grad {
-    -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))
+    
 }
 
 .scroll_down {
